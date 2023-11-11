@@ -17,6 +17,11 @@ Mis soluciones a Codember, creado por @midudev para la comunidad.
 2. Who.png
 
 ```bash
+  $ls
+  $cd data
+  $ls
+  $cat who.png
+
   # CEO de Vercel
   $submit Rauch
 ```
@@ -28,4 +33,12 @@ Mis soluciones a Codember, creado por @midudev para la comunidad.
   $mail 1
   $cal
   $submit 2023-12-01
+```
+
+4. Email 2
+
+```bash
+  $mail
+  $mail 2
+  $submit HTML
 ```

@@ -44,8 +44,9 @@ def solve_challenge(data:str) -> None:
 
 #* -- Inicio de ejecución.
 if __name__ == "__main__":
-  data:str = read_file("CHALLENGE_01.txt")
+  data:str = read_file("CHALLENGE_01.txt");
 
-  solution = solve_challenge(data)
+  # Challenge 01.
+  solution = solve_challenge(data);
   print(solution)
 
