@@ -5,6 +5,7 @@ Mis soluciones a Codember, creado por @midudev para la comunidad.
 ### Challenge 2023
 
 [CHALLENGE 01](/challenges/CHALLENGE_01/CHALLENGE_01.py)
+[CHALLENGE 02](/challenges/CHALLENGE_02/CHALLENGE_02.py)
 
 ### Secretos 2023
 
@@ -41,4 +42,27 @@ Mis soluciones a Codember, creado por @midudev para la comunidad.
   $mail
   $mail 2
   $submit HTML
+```
+
+5. Palabra magica más famosa del mundo
+
+```bash
+  $cat CHANGELOG.txt
+  $abracadabra
+  $submit itsmagic
+```
+
+6. Confetti
+
+```bash
+  $cat CHANGELOG.txt
+  $confetti
+  $confetti
+  $confetti
+  $confetti
+  $confetti
+  $confetti
+  $confetti
+  $confetti
+  $confetti
 ```
