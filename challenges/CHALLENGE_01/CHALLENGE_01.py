@@ -20,10 +20,13 @@ llaveS casa CASA casa llaves -> llaves2casa3
 taza ta za taza -> taza2ta1za1
 casas casa casasas -> casas1casa1casasas1
 """
+import os;
 
 #* -- Lectura de archivos.
 def read_file(file_name: str) -> str:
-  File = open(file_name, "rt");
+  file_path = f"{os.getcwd()}/challenges/CHALLENGE_01/{file_name}"
+
+  File = open(file_path, "rt");
   data:str = File.read().strip();
   File.close();
 
@@ -42,11 +45,9 @@ def solve_challenge(data:str) -> None:
 
   return "".join(result);
 
-#* -- Inicio de ejecución.
-if __name__ == "__main__":
+def challenge_01():
   data:str = read_file("CHALLENGE_01.txt");
 
   # Challenge 01.
-  solution = solve_challenge(data);
-  print(solution)
-
+  resultado:str = solve_challenge(data);
+  print("[🐎:Resultado] Mensaje desencriptado:", resultado);

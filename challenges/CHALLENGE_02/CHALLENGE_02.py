@@ -32,10 +32,12 @@ Desarrolla un mini compilador que tome una cadena de texto y devuelva otra caden
 2. Crea un programa al que le pases como entrada el mensaje anterior. Envía la salida con el comando "submit" en la terminal, por ejemplo así:
 submit 024899488
 """
+import os;
 
 #* -- Lectura de archivos.
 def read_file(file_name: str) -> str:
-  File = open(file_name, "rt");
+  file_path = f"{os.getcwd()}/challenges/CHALLENGE_02/{file_name}"
+  File = open(file_path, "rt");
   data:str = File.read().strip();
   File.close();
 
@@ -60,10 +62,10 @@ def lector_caracteres(data:str) -> str:
 
   return resultado;
 
-#* -- Inicio de ejecución.
-if (__name__ == "__main__"):
+def challenge_02():
+    # Lectura del archivo.
   data:str = read_file("CHALLENGE_02.txt");
 
+  # Comprobación de políticas.
   resultado:str = lector_caracteres(data);
-
-  print(f"RESULTADO: {resultado}")
+  print("[🐎:Resultado] Resultado del compilador:", resultado);
