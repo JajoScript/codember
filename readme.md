@@ -34,6 +34,16 @@ Ejecutar CHALLENGE 03:
 
 Código del reto: [CHALLENGE 03](/challenges/CHALLENGE_03/CHALLENGE_03.py)
 
+### CHALLENGE 04
+
+Ejecutar CHALLENGE 04:
+
+```bash
+  $py .\challenges\CHALLENGE_04
+```
+
+Código del reto: [CHALLENGE 04](/challenges/CHALLENGE_04/CHALLENGE_04.py)
+
 ### Secretos 2023
 
 1. Konami Code.
@@ -123,4 +133,12 @@ Código del reto: [CHALLENGE 03](/challenges/CHALLENGE_03/CHALLENGE_03.py)
 ```bash
   $cat CHANGELOG.txt
   $do barrel roll
+```
+
+10. COW
+
+```bash
+  $cat CHANGELOG.txt
+  $cowsay
+  $ping midu.dev
 ```
