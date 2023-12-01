@@ -2,7 +2,7 @@
 
 Mis soluciones a Codember, creado por @midudev para la comunidad.
 
-### Challenge 2023
+## Challenge 2023
 
 ### CHALLENGE 01
 
@@ -44,7 +44,17 @@ Ejecutar CHALLENGE 04:
 
 Código del reto: [CHALLENGE 04](/challenges/CHALLENGE_04/CHALLENGE_04.py)
 
-### Secretos 2023
+### CHALLENGE 05
+
+Ejecutar CHALLENGE 05:
+
+```bash
+  $py .\challenges\CHALLENGE_05
+```
+
+Código del reto: [CHALLENGE 05](/challenges/CHALLENGE_05/CHALLENGE_05.py)
+
+## Secretos 2023
 
 1. Konami Code.
 
@@ -141,4 +151,28 @@ Código del reto: [CHALLENGE 04](/challenges/CHALLENGE_04/CHALLENGE_04.py)
   $cat CHANGELOG.txt
   $cowsay
   $ping midu.dev
+```
+
+11. Tetris
+
+```bash
+  $cat CHANGELOG.txt
+  $play tetris
+```
+
+12. Adivinanza
+
+```bash
+  $mail
+  $mail 5
+  $submit bug
+```
+
+13. AdventJS
+
+```bash
+  $cd private
+  $ls
+  $cat final_log_mars_mission.txt
+  $npm install adventjs
 ```
